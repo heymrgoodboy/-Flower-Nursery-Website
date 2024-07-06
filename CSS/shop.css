@@ -1,0 +1,89 @@
+/* style.css */
+
+/* Body and general styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333; /* Dark text color */
+}
+
+.container {
+    max-width: 1200px; /* Adjust container width as needed */
+    margin-top: 20px;
+}
+
+.navbar {
+    background-color: #ffffff; /* White navbar background */
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Navbar shadow */
+}
+
+.navbar .logo img {
+    height: 50px; /* Adjust logo height as needed */
+    margin-left: 20px; /* Example margin for logo */
+}
+
+.navbar nav {
+    margin-right: 20px; /* Example margin for navigation links */
+}
+
+.navbar a {
+    color: #333; /* Navbar link color */
+    text-decoration: none;
+    margin-left: 15px; /* Adjust spacing between links */
+}
+
+.navbar a:hover {
+    color: #007bff; /* Hover color for navbar links */
+}
+
+/* Card styling */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Example shadow for cards */
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Adding transform for smooth scaling */
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+    transform: scale(1.05); /* Scale up on hover */
+}
+
+.card .card-img-top {
+    height: 250px; /* Adjust card image height */
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 20px; /* Example padding for card body */
+}
+
+.card-title {
+    font-size: 1.25rem; /* Example font size for card title */
+    margin-bottom: 10px; /* Example margin bottom for card title */
+}
+
+.card-text {
+    margin-bottom: 15px; /* Example margin bottom for card text */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Primary button background color */
+    border-color: #007bff; /* Primary button border color */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Hover background color */
+    border-color: #0056b3; /* Hover border color */
+}
+
+/* Footer styling */
+.footer {
+    background-color: #333; /* Example footer background color */
+    color: #fff; /* Example footer text color */
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer p {
+    margin-bottom: 0; /* Example margin bottom for footer paragraphs */
+}
