@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #006400;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.header .logo img:hover {
+    transform: scale(1.1);
+}
+
+.header .contact-info {
+    display: flex;
+    gap: 15px;
+}
+
+.header .contact-info a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #228B22;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar nav {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar .right a {
+    background-color: #006400;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.hero-text p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.hero-text a {
+    color: white;
+    background-color: #32CD32;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #006400;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 60px;
+}
+
+.header .logo img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.header .logo img:hover {
+    transform: scale(1.1);
+}
+
+.header .contact-info {
+    display: flex;
+    gap: 15px;
+}
+
+.header .contact-info a,
+.header .contact-info span {
+    color: white;
+    text-decoration: none;
+}
+
+.header .shipping-center {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap; /* Prevents the text from wrapping */
+}
+
+.navbar .logo img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    border-image-repeat: stretch;
+}
+
+.header .logo img:hover {
+    transform: scale(1.1);
+}
+/* #slogan {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+    color: #228B22;
+} */
+
+
